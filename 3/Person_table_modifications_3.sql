@@ -15,9 +15,6 @@ DECLARE @PersonsTableInstance TABLE
 	[LastName] [dbo].[Name] NOT NULL,
 	[Suffix] [nvarchar](10) NULL,
 	[EmailPromotion] [int] NOT NULL,
-	[AdditionalContactInfo] [xml](CONTENT [Person].[AdditionalContactInfoSchemaCollection]) NULL,
-	[Demographics] [xml](CONTENT [Person].[IndividualSurveySchemaCollection]) NULL,
-	[rowguid] [uniqueidentifier] NOT NULL,
 	[ModifiedDate] [datetime] NOT NULL,
 	[EmailAddress] [nvarchar](50),
 	PRIMARY KEY ([PersonType], [BusinessEntityID])
