@@ -10,7 +10,7 @@ CREATE TABLE [dbo].[Person](
 	[LastName] [dbo].[Name] NOT NULL,
 	[Suffix] [nvarchar](10) NULL,
 	[EmailPromotion] [int] NOT NULL,
-	[ModifiedDate] [datetime] NOT NULL,
+	[ModifiedDate] [datetime] NOT NULL
 );
 GO
 
